@@ -1,0 +1,74 @@
+@font-face{
+    font-family: Libre;
+    src:url(fonts/LibreBaskerville-Regular.ttf);
+}
+
+html{
+    background-color: rgb(6, 8, 128);
+   
+}
+body{
+    font-family: Libre;
+}
+header{
+    padding:1%;
+    margin:0.5%;
+    background-color: rgba(147, 112, 216, 0.575);
+
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+h1{
+    color:rgb(20, 114, 20);
+}
+h2{
+    color:rgb(59, 230, 59);
+}
+#intro{
+    background-color: rgba(230, 230, 250, 0.555);
+    padding:1%;
+    margin:0.3%;
+
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 1%;
+    justify-items: center;
+}
+h3{
+    color:forestgreen;
+}
+#second{
+    background-color: rgba(255, 240, 245, 0.534);
+    padding:0.8%;
+    margin:0.5%;
+
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    gap:1%;
+    justify-items: center;
+}
+article, header, footer{
+    border-radius: 8%;
+}
+p{
+    font-size: 1.3em;
+    color:rgb(240, 214, 68);
+}
+ul, li{
+    color:goldenrod;
+    background-color: rgba(7, 73, 23, 0.274);
+}
+footer{
+    background-color: rgba(147, 112, 216, 0.555);
+    padding:0.3%;
+    margin:0.2%;
+
+    display: grid;
+    justify-content: center;
+
+}
+footer p{
+    font-size: 1.2em;
+    color:rgb(221, 224, 9);
+}
